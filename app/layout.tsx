@@ -9,7 +9,7 @@ export default function Layout({
   return(
     <html lang="ko">
       <body>
-        <Header/>
+        <Header />
         <main>
           {children}
         </main>
