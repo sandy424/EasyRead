@@ -1,4 +1,5 @@
-import Header from "./ui/Header";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 import "./globals.css";
 
 export default function Layout({
@@ -9,10 +10,11 @@ export default function Layout({
   return(
     <html lang="ko">
       <body>
-        <Header/>
-        <main>
+        <Header />
+        <main className="pt-16">
           {children}
         </main>
+        <Footer />
       </body>
     </html>
   )
