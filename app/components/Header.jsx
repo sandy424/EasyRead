@@ -5,7 +5,7 @@ export default function Header() {
         <header className="flex items-center justify-center border-b border-teal-100 p-4 fixed top-0 left-0 right-0 bg-white z-50">
             <div className="flex justify-center">
                 <Link href="/">
-                    <span className="font-en font-semibold text-green-600 text-2xl">EZREAD</span>
+                    <span className="font-en font-semibold text-teal-950 text-2xl">EZREAD</span>
                 </Link>
             </div>
             {/* 로그인&회원가입 */}
